@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .separator {
+        height: 0.4rem;
+        background-color: antiquewhite;
+      }
+}
