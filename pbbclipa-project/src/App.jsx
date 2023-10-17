@@ -8,15 +8,11 @@ import Sectionthree from './Components/Sectionthree';
 import Sectionfour from './Components/Sectionfour';
 import Sectionfive from './Components/Sectionfive';
 import Sectionsix from './Components/Sectionsix';
+import Sectionseven from './Components/Sectionseven';
 
 
 const App = () => {
-  const section9A = [
-    "LESSON LEARNED: THE KEY TO NON-PROFIT PROGRAM EVALUATION",
-    "INTERVIEW WITH PILGRIMS BIBLE BAPTIST CHURCH DIRECTOR",
-    "HOW VOLUNTEERING IN PBBCL CAN MAKE A WORLD OF DIFFERENCE",
-  ];
-
+ 
   return (
     <div>
       <Header />
@@ -35,18 +31,7 @@ const App = () => {
       <div className="separator"></div>
       <Sectionsix />
       <div className="separator"></div>
-      <section className="flex text-center md:justify-around flex-col md:flex-row justify-center">
-        {section9A.map((txt) => {
-          return (
-            <div>
-              <img />
-              <h3 className="md:max-w-[18rem] md:text-[1.6rem] md:pt-[3rem] md:pb-[1rem] md:min-w-[15rem] mx-auto max-w-[16rem] text-[1.6rem] pt-[3rem] pb-[1rem]">
-                {txt}
-              </h3>
-              <p className="pb-[3rem]">Learn More</p>
-            </div>
-          );
-        })}
+      <Sectionseven />
         {/* <div className="">
           <img />
           <h3 className="md:max-w-[15rem] md:text-[1.6rem] md:pt-[3rem] md:pb-[1rem] md:min-w-[15rem]">INTERVIEW WITH PILGRIMS BIBLE BAPTIST CHURCH DIRECTOR</h3>
@@ -62,7 +47,6 @@ const App = () => {
           <h3 className="max-w-[18rem] text-[1.6rem] pt-[3rem] pb-[1rem] min-w-[15rem]">HOW VOLUNTEERING IN PBBCL CAN MAKE A WORLD OF DIFFERENCE</h3>
           <p className="pb-[3rem]">Learn More</p>
         </div> */}
-      </section>
       <div className="separator"></div>
       <section className="flex justify-between">
         <div className="section-10-div-img">
